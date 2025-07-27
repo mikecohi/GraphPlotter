@@ -137,6 +137,8 @@
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="CoordinateSystem.cpp" />
+    <ClCompile Include="ExpressionNode.cpp" />
+    <ClCompile Include="ExpressionParser.cpp" />
     <ClCompile Include="ExpressionTree.cpp" />
     <ClCompile Include="Function.cpp" />
     <ClCompile Include="FunctionParser.cpp" />
@@ -148,6 +150,8 @@
   <ItemGroup>
     <ClInclude Include="Application.h" />
     <ClInclude Include="CoordinateSystem.h" />
+    <ClInclude Include="ExpressionNode.h" />
+    <ClInclude Include="ExpressionParser.h" />
     <ClInclude Include="ExpressionTree.h" />
     <ClInclude Include="Function.h" />
     <ClInclude Include="FunctionParser.h" />
