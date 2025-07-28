@@ -14,6 +14,8 @@ public:
 private:
     sf::RenderWindow window;
     GraphRenderer renderer;
+    sf::Font font;
+
     std::vector<UserDefinedFunction> functions;
 
     void processInput();

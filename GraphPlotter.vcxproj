@@ -158,6 +158,9 @@
     <ClInclude Include="GraphRenderer.h" />
     <ClInclude Include="UserDefinedFunction.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Font Include="assets\fonts\SamsungOne-400.ttf" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

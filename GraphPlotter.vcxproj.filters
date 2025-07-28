@@ -96,4 +96,7 @@
       <Filter>Source Files\Math</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Font Include="assets\fonts\SamsungOne-400.ttf" />
+  </ItemGroup>
 </Project>

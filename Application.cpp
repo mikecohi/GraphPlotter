@@ -2,7 +2,15 @@
 #include <iostream>
 
 Application::Application()
-    : window(sf::VideoMode(800, 600), "Graph Plotter") {}
+    : window(sf::VideoMode(800, 600), "Graph Plotter") 
+{
+    // Load font once during initialization
+    if (!font.loadFromFile("assets/fonts/SamsungOne-400.ttf")) {
+        throw std::runtime_error("Failed to load font: assets/fonts/SamsungOne-400.ttf");
+    }
+
+    renderer.setFont(font);
+}
 
 void Application::run() {
     // Example: read function
